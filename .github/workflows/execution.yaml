@@ -8,10 +8,6 @@ on:
 env:
   ENVIRONEMENT_TO_EXECUTE: TEST
   REMOTE_GRID_URL: ${{ secret.REMOTE_EXECUTION_URL }}
-# -setEnv "run.ExecutionMode=Grid"
-# -setEnv "run.RemoteGridURL=$REMOTE_GRID_URL"
-# -setEnv "run.TestEnv=$ENVIRONEMENT_TO_EXECUTE"
-
 jobs:
   build:
    
