@@ -22,7 +22,7 @@ jobs:
      - name: Setup permissions
        run: chmod -R 755 ./
      - name: Run CITS Test
-       run: Run.command -run -project_location "/Projects/MyFirstProject" -release "BAT" -testset "SET1" -setEnv "run.ExecutionMode=Grid" -setEnv "run.RemoteGridURL=$REMOTE_GRID_URL" -setEnv "run.TestEnv=$ENVIRONEMENT_TO_EXECUTE"
+       run: ./Run.command -run -project_location "/Projects/MyFirstProject" -release "BAT" -testset "SET1" -setEnv "run.ExecutionMode=Grid" -setEnv "run.RemoteGridURL=$REMOTE_GRID_URL" -setEnv "run.TestEnv=$ENVIRONEMENT_TO_EXECUTE"
      - name: Upload Results
        uses: actions/upload-artifact@v4
        with:
