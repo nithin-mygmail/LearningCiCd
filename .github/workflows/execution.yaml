@@ -7,7 +7,7 @@ on:
 
 env:
   ENVIRONEMENT_TO_EXECUTE: TEST
-  REMOTE_GRID_URL: ${{ secret.REMOTE_EXECUTION_URL }}
+  REMOTE_GRID_URL: ${{ secrets.REMOTE_EXECUTION_URL }}
 jobs:
   build:
    
