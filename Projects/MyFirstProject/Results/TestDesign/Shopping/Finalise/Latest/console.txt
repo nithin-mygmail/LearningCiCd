@@ -1,0 +1,80 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 21.0.5
+java.home            : C:\Program Files\Java\jdk-21
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Thu Jan 23 15:53:14 IST 2025
+Loading Browser Profile
+Loading RunManager
+[Scenario:Shopping] [TestCase: Finalise] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-13] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285}) on port 13903
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 13903.
+2025-01-23 15:53:15:01S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Total Price | Action: assertElementTextContains | Input: Purchase:TotalPrice | Conditon:  | @23-Jan-2025 15:53:15.015
+[DEBUG]   | Test Data Not Found, Iteration - 1 is missing. 
+[Env : TEST | Sheet : Purchase | Field : TotalPrice | TestCase : Shopping/Finalise ]
+
+===================================================================================================
+
+2025-01-23 15:53:15:01S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task onError:Error in testcase [//Shopping/Finalise]
+com.cognizant.cognizantits.engine.execution.exception.TestFailedException: Error in testcase [//Shopping/Finalise]
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.onDataNotFoundException(TestCaseRunner.java:308)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:352)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:127)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: Test Data Not Found, Iteration - 1 is missing. 
+[Env : TEST | Sheet : Purchase | Field : TotalPrice | TestCase : Shopping/Finalise ]
+	at com.cognizant.cognizantits.engine.execution.data.DataAccessInternal.throwErrorWithCause(DataAccessInternal.java:287)
+	at com.cognizant.cognizantits.engine.execution.data.DataAccess.getData(DataAccess.java:71)
+	at com.cognizant.cognizantits.engine.execution.data.DataProcessor.resolve(DataProcessor.java:64)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:181)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	... 5 more
+
+[DEBUG]   | Error in testcase [//Shopping/Finalise]
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Shopping:Finalise
+Executed Steps       : 2
+Passed Steps         : 0
+Failed Steps         : 2
+Time Taken           : 00:00:01
+-----------------------------------------------------
+
+Run Finished on Thu Jan 23 15:53:15 IST 2025
+-----------------------------------------------------
+ExecutionDate        : 23-Jan-2025 15-53-14
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:01
+ReportPath           : file:///C:\Learning\K8CICD\gitcheckouts\CognizantIntelligentTestScripter\Projects\MyFirstProject\Results\TestDesign\Shopping\Finalise\23-Jan-2025 15-53-14\summary.html
+-----------------------------------------------------

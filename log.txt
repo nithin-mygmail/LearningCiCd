@@ -1,0 +1,7 @@
+2025-01-24 16:47:26:01S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main main:Launching Cognizant Intelligent Test Scripter IDE
+2025-01-24 16:47:26:01S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Learning\K8CICD\gitcheckouts\LearningCiCd\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2025-01-24 16:47:27:01S +0530 [INFO] com.cognizant.cognizantits.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2025-01-24 16:47:56:01S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Learning\K8CICD\gitcheckouts\LearningCiCd\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2025-01-24 16:48:32:01S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Learning\K8CICD\gitcheckouts\LearningCiCd\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2025-01-24 16:49:58:01S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Learning\K8CICD\gitcheckouts\LearningCiCd\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2025-01-24 16:52:09:01S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main finish:Cognizant Intelligent Test Scripter IDE has been Terminated - [ Total Time : 00:04:43.771 ]

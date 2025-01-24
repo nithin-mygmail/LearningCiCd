@@ -1,0 +1,42 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  21.0.5
+java.home                                  :  C:\Program Files\Java\jdk-21
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Thu Jan 23 15:53:14 IST 2025
+
+Scenario         :  [Shopping]
+TestCase         :  [Finalise]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Total Price  |  Action:assertElementTextContains  |  Input:Purchase:TotalPrice  |  Condition:  | @23-Jan-2025 15:53:15.015
+[DEBUG]   | Test Data Not Found, Iteration - 1 is missing. 
+[Env : TEST | Sheet : Purchase | Field : TotalPrice | TestCase : Shopping/Finalise ]
+
+
+===================================================================================================
+
+Step:1  |  Object:Total Price  |  Action:assertElementTextContains  |  Input:Purchase:TotalPrice  |  Condition:  | @23-Jan-2025 15:53:15.015
+[DEBUG]   | Error in testcase [//Shopping/Finalise]
+
+---------------------------------------------------
+Testcase Name        : Shopping:Finalise
+Executed Steps       : 2
+Passed Steps         : 0
+Failed Steps         : 2
+Time Taken           : 00:00:01
+---------------------------------------------------
+

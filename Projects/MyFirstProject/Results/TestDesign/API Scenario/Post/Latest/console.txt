@@ -1,0 +1,83 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 21.0.5
+java.home            : C:\Program Files\Java\jdk-21
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Thu Jan 23 15:58:39 IST 2025
+Loading Browser Profile
+Loading RunManager
+[Scenario:API Scenario] [TestCase: Post] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-23] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285}) on port 21339
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 21339.
+2025-01-23 15:58:40:01S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Webservice | Action: setEndPoint | Input: @https://reqres.in/api/users | Conditon:  | @23-Jan-2025 15:58:40.040
+Payload :https://reqres.in/api/users
+[DONE]   | End point set : https://reqres.in/api/users
+
+===================================================================================================
+
+Step:2   | Object: Webservice | Action: postRestRequest | Input: {
+    "name": "{API:Name}",
+    "job": "{API:Job}"
+} | Conditon:  | @23-Jan-2025 15:58:40.040
+Payload :{
+    "name": "{API:Name}",
+    "job": "{API:Job}"
+}
+[COMPLETE]   | Response received in : [591ms] with Status code  : 201
+
+===================================================================================================
+
+Step:3   | Object: Webservice | Action: assertResponseCode | Input: @201 | Conditon:  | @23-Jan-2025 15:58:41.041
+[PASS]   | Status code is : 201
+
+===================================================================================================
+
+Step:4   | Object: Webservice | Action: storeJSONelementInDataSheet | Input: POST:ID | Conditon: $.id | @23-Jan-2025 15:58:41.041
+Updating value in SubIteration 1
+[DONE]   | Element text [368] is stored in POST:ID
+
+===================================================================================================
+
+Step:5   | Object: Webservice | Action: storeJSONelementInDataSheet | Input: POST:CreatedAt | Conditon: $.createdAt | @23-Jan-2025 15:58:41.041
+Updating value in SubIteration 1
+[DONE]   | Element text [2025-01-23T10:28:41.090Z] is stored in POST:CreatedAt
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : API Scenario:Post
+Executed Steps       : 5
+Passed Steps         : 4
+Failed Steps         : 0
+Time Taken           : 00:00:01
+-----------------------------------------------------
+
+Run Finished on Thu Jan 23 15:58:41 IST 2025
+-----------------------------------------------------
+ExecutionDate        : 23-Jan-2025 15-58-39
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:01
+ReportPath           : file:///C:\Learning\K8CICD\gitcheckouts\CognizantIntelligentTestScripter\Projects\MyFirstProject\Results\TestDesign\API Scenario\Post\23-Jan-2025 15-58-39\summary.html
+-----------------------------------------------------

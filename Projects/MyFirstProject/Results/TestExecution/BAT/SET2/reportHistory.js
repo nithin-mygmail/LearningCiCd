@@ -1,0 +1,1 @@
+var reportName="BAT:SET2";var dataSet=[{"PassTC":"5","FailTC":"0","ReportPath":"24-Jan-2025 16-49-58\\summary.html","ExecTC":"5","ExecutionDate":"24-Jan-2025 16-49-58","ExecTime":"00:00:32"}]

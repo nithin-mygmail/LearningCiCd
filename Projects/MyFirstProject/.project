@@ -1,0 +1,128 @@
+{
+  "id" : "MyFirstProject",
+  "name" : "MyFirstProject",
+  "version" : "1.3",
+  "attributes" : [ ],
+  "tags" : [ ],
+  "_meta" : [ {
+    "type" : "attribute",
+    "name" : "scenario",
+    "desc" : "High level classification of test requirement/cases grouped together",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@smoke",
+    "desc" : "Non-exhaustive set of tests that aim at ensuring that the most important functions work",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@uat",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@load",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "Sc1",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "API Scenario",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "General",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "Shopping",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "TestFunctions",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "regression",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  } ],
+  "data" : [ {
+    "id" : "Sc1#Tc1",
+    "name" : "Tc1",
+    "tags" : [ {
+      "value" : "regression"
+    } ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "Sc1"
+    } ]
+  }, {
+    "id" : "Delete",
+    "name" : "Delete",
+    "tags" : [ {
+      "value" : "@smoke"
+    } ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "API Scenario"
+    } ]
+  }, {
+    "id" : "Get",
+    "name" : "Get",
+    "tags" : [ {
+      "value" : "@smoke"
+    } ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "API Scenario"
+    } ]
+  }, {
+    "id" : "Post",
+    "name" : "Post",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "API Scenario"
+    } ]
+  }, {
+    "id" : "Tc2",
+    "name" : "Tc2",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "Sc1"
+    } ]
+  }, {
+    "id" : "DataGeneration",
+    "name" : "DataGeneration",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "TestFunctions"
+    } ]
+  } ]
+}

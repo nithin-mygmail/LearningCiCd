@@ -1,0 +1,47 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  21.0.5
+java.home                                  :  C:\Program Files\Java\jdk-21
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Sun Jan 12 13:28:48 IST 2025
+
+Scenario         :  [API Scenario]
+TestCase         :  [Delete]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Webservice  |  Action:setEndPoint  |  Input:@https://reqres.in/api/users/{Delete:ID}  |  Condition:  | @12-Jan-2025 13:28:49.049
+[DONE]   | End point set : https://reqres.in/api/users/2
+
+
+===================================================================================================
+
+Step:2  |  Object:Webservice  |  Action:deleteRestRequest  |  Input:  |  Condition:  | @12-Jan-2025 13:28:49.049
+[COMPLETE]   | Response received in : [384ms] with Status code  : 204
+
+
+===================================================================================================
+
+Step:3  |  Object:Webservice  |  Action:assertResponseCode  |  Input:@200  |  Condition:  | @12-Jan-2025 13:28:49.049
+[FAIL]   | Status code is : 204 but should be 200
+
+---------------------------------------------------
+Testcase Name        : API Scenario:Delete
+Executed Steps       : 3
+Passed Steps         : 1
+Failed Steps         : 1
+Time Taken           : 00:00:01
+---------------------------------------------------
+

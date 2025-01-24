@@ -1,0 +1,17 @@
+#Created
+#Sun Nov 17 13:43:03 IST 2024
+addonPort=8887
+dateTimeFormat=yyyy-MM-dd HH\:mm\:ss\:SSS Z
+defaultLogLevel=INFO
+defaultWaitTime=10
+elementWaitTime=10
+harPort=11234
+helpdoc=https\://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc
+loadRecentProject=true
+logBackupLoc=backup/log
+logfile=log.txt
+maxFileSize=4.5
+showDateTime=true
+standaloneReport=false
+theme=Sapphire
+themes=Amethyst,Coral,Pearl,Sapphire

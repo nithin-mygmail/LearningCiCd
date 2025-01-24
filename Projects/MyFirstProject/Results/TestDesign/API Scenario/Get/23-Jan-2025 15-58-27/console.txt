@@ -1,0 +1,72 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 21.0.5
+java.home            : C:\Program Files\Java\jdk-21
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Thu Jan 23 15:58:27 IST 2025
+Loading Browser Profile
+Loading RunManager
+[Scenario:API Scenario] [TestCase: Get] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-21] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285}) on port 16080
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 16080.
+2025-01-23 15:58:28:01S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Webservice | Action: setEndPoint | Input: @https://reqres.in/api/users/{GET:ID} | Conditon:  | @23-Jan-2025 15:58:28.028
+Payload :https://reqres.in/api/users/3
+[DONE]   | End point set : https://reqres.in/api/users/3
+
+===================================================================================================
+
+Step:2   | Object: Webservice | Action: getRestRequest | Input:  | Conditon:  | @23-Jan-2025 15:58:28.028
+[COMPLETE]   | Response received in : [111ms] with Status code  : 200
+
+===================================================================================================
+
+Step:3   | Object: Webservice | Action: assertResponseCode | Input: @200 | Conditon:  | @23-Jan-2025 15:58:28.028
+[PASS]   | Status code is : 200
+
+===================================================================================================
+
+Step:4   | Object: Webservice | Action: storeJSONelementInDataSheet | Input: GET:Email | Conditon: $.data.email | @23-Jan-2025 15:58:28.028
+Updating value in SubIteration 1
+[DONE]   | Element text [emma.wong@reqres.in] is stored in GET:Email
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : API Scenario:Get
+Executed Steps       : 4
+Passed Steps         : 3
+Failed Steps         : 0
+Time Taken           : 00:00:01
+-----------------------------------------------------
+
+Run Finished on Thu Jan 23 15:58:28 IST 2025
+-----------------------------------------------------
+ExecutionDate        : 23-Jan-2025 15-58-27
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:01
+ReportPath           : file:///C:\Learning\K8CICD\gitcheckouts\CognizantIntelligentTestScripter\Projects\MyFirstProject\Results\TestDesign\API Scenario\Get\23-Jan-2025 15-58-27\summary.html
+-----------------------------------------------------
+[Thread-21] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\Learning\K8CICD\gitcheckouts\CognizantIntelligentTestScripter\Projects\MyFirstProject\Results\TestDesign\API Scenario\Get\23-Jan-2025 15-58-27\summary.html
+[Thread-21] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Learning\K8CICD\gitcheckouts\CognizantIntelligentTestScripter\Projects\MyFirstProject\Results\TestDesign\API Scenario\Get\23-Jan-2025 15-58-27\summary.html]

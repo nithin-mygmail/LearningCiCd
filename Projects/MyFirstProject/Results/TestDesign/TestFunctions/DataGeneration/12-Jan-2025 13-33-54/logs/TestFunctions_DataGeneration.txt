@@ -1,0 +1,53 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  21.0.5
+java.home                                  :  C:\Program Files\Java\jdk-21
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Sun Jan 12 13:33:54 IST 2025
+
+Scenario         :  [TestFunctions]
+TestCase         :  [DataGeneration]
+Browser          :  [Chrome Headless]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:9  |  Object:Browser  |  Action:AddVar  |  Input:=Round(=Random(6)):  |  Condition:%var5%  | @12-Jan-2025 13:33:55.055
+[DONE]   | Variable %var5% added with value 325456
+
+
+===================================================================================================
+
+Step:10  |  Object:Browser  |  Action:print  |  Input:%var5%  |  Condition:  | @12-Jan-2025 13:33:55.055
+[DONE]   | printed 325456
+
+
+===================================================================================================
+
+Step:11  |  Object:Browser  |  Action:AddVar  |  Input:=Concat(Ashish,%var5%):  |  Condition:%var6%  | @12-Jan-2025 13:33:55.055
+[DONE]   | Variable %var6% added with value Ashish325456
+
+
+===================================================================================================
+
+Step:12  |  Object:Browser  |  Action:print  |  Input:%var6%  |  Condition:  | @12-Jan-2025 13:33:55.055
+[DONE]   | printed Ashish325456
+
+---------------------------------------------------
+Testcase Name        : TestFunctions:DataGeneration
+Executed Steps       : 4
+Passed Steps         : 4
+Failed Steps         : 0
+Time Taken           : 00:00:01
+---------------------------------------------------
+
