@@ -1,0 +1,94 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 21.0.5
+java.home            : C:\Program Files\Java\jdk-21
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Mon Jan 27 12:23:44 IST 2025
+Loading Browser Profile
+Loading RunManager
+[Scenario:API Scenario] [TestCase: Delete] [Description: Delete] [Browser: Chrome Headless] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:API Scenario] [TestCase: Get] [Description: Get] [Browser: Chrome Headless] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:API Scenario] [TestCase: Post] [Description: Post] [Browser: Chrome Headless] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:TestFunctions] [TestCase: DataGeneration] [Description: DataGeneration] [Browser: Chrome Headless] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+[Scenario:Sc1] [TestCase: Tc2] [Description: Tc2] [Browser: Chrome Headless] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[5] TestCases selected for execution from [//BAT/SET2]
+----------------------------------------------------------
+Initializing Report
+[Thread-8] INFO com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for the testset
+ApiLink not available!!
+testset : SET2
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome Headless
+Launching Local Driver
+Starting ChromeDriver 131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285}) on port 36495
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 36495.
+2025-01-27 12:23:45:01S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Headless Launched
+
+---------------------------------------------------
+Testcase Name        : API Scenario:Delete
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:01
+-----------------------------------------------------
+
+
+---------------------------------------------------
+Testcase Name        : API Scenario:Get
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:00
+-----------------------------------------------------
+
+
+---------------------------------------------------
+Testcase Name        : API Scenario:Post
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:00
+-----------------------------------------------------
+
+
+---------------------------------------------------
+Testcase Name        : TestFunctions:DataGeneration
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:00
+-----------------------------------------------------
+
+
+---------------------------------------------------
+Testcase Name        : Sc1:Tc2
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:00
+-----------------------------------------------------
+
+Run Finished on Mon Jan 27 12:23:45 IST 2025
+[Thread-8] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\Learning\K8CICD\gitcheckouts\LearningCiCd\Projects\MyFirstProject\Results\TestExecution\BAT\SET2\27-Jan-2025 12-23-44\extent.html
+[Thread-8] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Learning\K8CICD\gitcheckouts\LearningCiCd\Projects\MyFirstProject\Results\TestExecution\BAT\SET2\27-Jan-2025 12-23-44\extent.html]
+-----------------------------------------------------
+ExecutionDate        : 27-Jan-2025 12-23-44
+Executed TestCases   : 5
+Passed TestCases     : 0
+Failed TestCases     : 5
+Time Taken           : 00:00:01
+ReportPath           : file:///C:\Learning\K8CICD\gitcheckouts\LearningCiCd\Projects\MyFirstProject\Results\TestExecution\BAT\SET2\27-Jan-2025 12-23-44\summary.html
+-----------------------------------------------------

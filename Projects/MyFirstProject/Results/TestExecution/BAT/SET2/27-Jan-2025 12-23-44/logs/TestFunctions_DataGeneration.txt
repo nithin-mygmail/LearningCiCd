@@ -1,0 +1,29 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  21.0.5
+java.home                                  :  C:\Program Files\Java\jdk-21
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Jan 27 12:23:45 IST 2025
+
+Scenario         :  [TestFunctions]
+TestCase         :  [DataGeneration]
+Browser          :  [Chrome Headless]
+Browser Version  :  [Default]
+Platform         :  [Any]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+---------------------------------------------------
+Testcase Name        : TestFunctions:DataGeneration
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:00
+---------------------------------------------------
+

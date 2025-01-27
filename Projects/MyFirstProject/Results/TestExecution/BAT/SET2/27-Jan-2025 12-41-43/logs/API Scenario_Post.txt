@@ -1,0 +1,62 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  21.0.5
+java.home                                  :  C:\Program Files\Java\jdk-21
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Jan 27 12:41:47 IST 2025
+
+Scenario         :  [API Scenario]
+TestCase         :  [Post]
+Browser          :  [Chrome Headless]
+Browser Version  :  [Default]
+Platform         :  [Any]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Webservice  |  Action:setEndPoint  |  Input:@https://reqres.in/api/users  |  Condition:  | @27-Jan-2025 12:41:48.048
+[DONE]   | End point set : https://reqres.in/api/users
+
+
+===================================================================================================
+
+Step:2  |  Object:Webservice  |  Action:postRestRequest  |  Input:{
+    "name": "{API:Name}",
+    "job": "{API:Job}"
+}  |  Condition:  | @27-Jan-2025 12:41:48.048
+[COMPLETE]   | Response received in : [294ms] with Status code  : 201
+
+
+===================================================================================================
+
+Step:3  |  Object:Webservice  |  Action:assertResponseCode  |  Input:@201  |  Condition:  | @27-Jan-2025 12:41:48.048
+[PASS]   | Status code is : 201
+
+
+===================================================================================================
+
+Step:4  |  Object:Webservice  |  Action:storeJSONelementInDataSheet  |  Input:POST:ID  |  Condition:$.id  | @27-Jan-2025 12:41:48.048
+[DONE]   | Element text [544] is stored in POST:ID
+
+
+===================================================================================================
+
+Step:5  |  Object:Webservice  |  Action:storeJSONelementInDataSheet  |  Input:POST:CreatedAt  |  Condition:$.createdAt  | @27-Jan-2025 12:41:48.048
+[DONE]   | Element text [2025-01-27T07:11:48.893Z] is stored in POST:CreatedAt
+
+---------------------------------------------------
+Testcase Name        : API Scenario:Post
+Executed Steps       : 5
+Passed Steps         : 4
+Failed Steps         : 0
+Time Taken           : 00:00:01
+---------------------------------------------------
+

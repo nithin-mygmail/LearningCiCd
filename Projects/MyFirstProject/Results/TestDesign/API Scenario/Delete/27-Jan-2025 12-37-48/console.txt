@@ -1,0 +1,66 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 21.0.5
+java.home            : C:\Program Files\Java\jdk-21
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Mon Jan 27 12:37:48 IST 2025
+Loading Browser Profile
+Loading RunManager
+[Scenario:API Scenario] [TestCase: Delete] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-9] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285}) on port 29010
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 29010.
+2025-01-27 12:37:49:01S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Webservice | Action: setEndPoint | Input: @https://reqres.in/api/users/{Delete:ID} | Conditon:  | @27-Jan-2025 12:37:49.049
+Payload :https://reqres.in/api/users/2
+[DONE]   | End point set : https://reqres.in/api/users/2
+
+===================================================================================================
+
+Step:2   | Object: Webservice | Action: deleteRestRequest | Input:  | Conditon:  | @27-Jan-2025 12:37:49.049
+[COMPLETE]   | Response received in : [831ms] with Status code  : 204
+
+===================================================================================================
+
+Step:3   | Object: Webservice | Action: assertResponseCode | Input: @204 | Conditon:  | @27-Jan-2025 12:37:50.050
+[PASS]   | Status code is : 204
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : API Scenario:Delete
+Executed Steps       : 3
+Passed Steps         : 2
+Failed Steps         : 0
+Time Taken           : 00:00:01
+-----------------------------------------------------
+
+Run Finished on Mon Jan 27 12:37:50 IST 2025
+-----------------------------------------------------
+ExecutionDate        : 27-Jan-2025 12-37-48
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:01
+ReportPath           : file:///C:\Learning\K8CICD\gitcheckouts\LearningCiCd\Projects\MyFirstProject\Results\TestDesign\API Scenario\Delete\27-Jan-2025 12-37-48\summary.html
+-----------------------------------------------------
+[Thread-9] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\Learning\K8CICD\gitcheckouts\LearningCiCd\Projects\MyFirstProject\Results\TestDesign\API Scenario\Delete\27-Jan-2025 12-37-48\summary.html
+[Thread-9] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Learning\K8CICD\gitcheckouts\LearningCiCd\Projects\MyFirstProject\Results\TestDesign\API Scenario\Delete\27-Jan-2025 12-37-48\summary.html]

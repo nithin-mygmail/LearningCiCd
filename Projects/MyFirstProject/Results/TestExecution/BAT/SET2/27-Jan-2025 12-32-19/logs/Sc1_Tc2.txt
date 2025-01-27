@@ -1,0 +1,149 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  21.0.5
+java.home                                  :  C:\Program Files\Java\jdk-21
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Jan 27 12:32:27 IST 2025
+
+Scenario         :  [Sc1]
+TestCase         :  [Tc2]
+Browser          :  [Chrome Headless]
+Browser Version  :  [Default]
+Platform         :  [Any]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:Login:URL  |  Condition:  | @27-Jan-2025 12:32:30.030
+[DONE]   | Opened Url: https://www.saucedemo.com/
+
+
+===================================================================================================
+
+Step:2  |  Object:Username  |  Action:Set  |  Input:Login:Username  |  Condition:  | @27-Jan-2025 12:32:30.030
+[DONE]   | Entered Text 'standard_user' on 'Username'
+
+
+===================================================================================================
+
+Step:3  |  Object:Password  |  Action:setEncrypted  |  Input:%password%  |  Condition:  | @27-Jan-2025 12:32:30.030
+[DONE]   | Entered Encrypted Text SZpqTtjfW+i4z45kdTv2OA== on Password
+
+
+===================================================================================================
+
+Step:4  |  Object:Login  |  Action:Click  |  Input:  |  Condition:  | @27-Jan-2025 12:32:30.030
+[DONE]   | Clicking on Login
+
+
+===================================================================================================
+
+Step:1  |  Object:Add to cart  |  Action:setObjectProperty  |  Input:Purchase:ItemToBuy  |  Condition:#nameofItem  | @27-Jan-2025 12:32:30.030
+[DONE]   | Setting Object Property for #nameofItem with Sauce Labs Onesie for Object [Swag - Add to cart]
+
+
+===================================================================================================
+
+Step:2  |  Object:Add to cart  |  Action:Click  |  Input:  |  Condition:  | @27-Jan-2025 12:32:30.030
+[DONE]   | Clicking on Add to cart
+
+
+===================================================================================================
+
+Step:3  |  Object:Cart Icon  |  Action:Click  |  Input:  |  Condition:  | @27-Jan-2025 12:32:30.030
+[DONE]   | Clicking on Cart Icon
+
+
+===================================================================================================
+
+Step:4  |  Object:Item To Buy  |  Action:setObjectProperty  |  Input:Purchase:ItemToBuy  |  Condition:#ItemtoBuy  | @27-Jan-2025 12:32:30.030
+[DONE]   | Setting Object Property for #ItemtoBuy with Sauce Labs Onesie for Object [Swag - Item To Buy]
+
+
+===================================================================================================
+
+Step:5  |  Object:Item To Buy  |  Action:assertElementDisplayed  |  Input:  |  Condition:  | @27-Jan-2025 12:32:30.030
+[PASS]   | Element [Item To Buy] is Displayed
+
+
+===================================================================================================
+
+Step:6  |  Object:Checkout  |  Action:Click  |  Input:  |  Condition:  | @27-Jan-2025 12:32:30.030
+[DONE]   | Clicking on Checkout
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:AddVar  |  Input:=Round(=Random(6)):  |  Condition:%var5%  | @27-Jan-2025 12:32:30.030
+[DONE]   | Variable %var5% added with value 401694
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:AddVar  |  Input:=Concat(Ashish,%var5%):  |  Condition:%Fname%  | @27-Jan-2025 12:32:30.030
+[DONE]   | Variable %Fname% added with value Ashish401694
+
+
+===================================================================================================
+
+Step:3  |  Object:First Name  |  Action:Set  |  Input:%Fname%  |  Condition:  | @27-Jan-2025 12:32:31.031
+[DONE]   | Entered Text 'Ashish401694' on 'First Name'
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:AddVar  |  Input:=Concat(Ghosh,%var5%):  |  Condition:%Lname%  | @27-Jan-2025 12:32:31.031
+[DONE]   | Variable %Lname% added with value Ghosh401694
+
+
+===================================================================================================
+
+Step:5  |  Object:Last Name  |  Action:Set  |  Input:%Lname%  |  Condition:  | @27-Jan-2025 12:32:31.031
+[DONE]   | Entered Text 'Ghosh401694' on 'Last Name'
+
+
+===================================================================================================
+
+Step:6  |  Object:Zip/Postal Code  |  Action:Set  |  Input:%var5%  |  Condition:  | @27-Jan-2025 12:32:31.031
+[DONE]   | Entered Text '401694' on 'Zip/Postal Code'
+
+
+===================================================================================================
+
+Step:7  |  Object:Continue  |  Action:Click  |  Input:  |  Condition:  | @27-Jan-2025 12:32:31.031
+[DONE]   | Clicking on Continue
+
+
+===================================================================================================
+
+Step:1  |  Object:Total Price  |  Action:assertElementTextContains  |  Input:Purchase:TotalPrice  |  Condition:  | @27-Jan-2025 12:32:31.031
+[PASS]   | Total Price's Text CONTAINS $8.63 
+
+
+===================================================================================================
+
+Step:2  |  Object:Finish  |  Action:Click  |  Input:  |  Condition:  | @27-Jan-2025 12:32:31.031
+[DONE]   | Clicking on Finish
+
+
+===================================================================================================
+
+Step:3  |  Object:Success Message1  |  Action:assertElementDisplayed  |  Input:  |  Condition:  | @27-Jan-2025 12:32:41.041
+[PASS]   | Element [Success Message1] is Displayed
+
+---------------------------------------------------
+Testcase Name        : Sc1:Tc2
+Executed Steps       : 20
+Passed Steps         : 20
+Failed Steps         : 0
+Time Taken           : 00:00:15
+---------------------------------------------------
+

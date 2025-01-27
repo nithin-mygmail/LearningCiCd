@@ -1,0 +1,53 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  21.0.5
+java.home                                  :  C:\Program Files\Java\jdk-21
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Jan 27 12:22:16 IST 2025
+
+Scenario         :  [API Scenario]
+TestCase         :  [Get]
+Browser          :  [Chrome Headless]
+Browser Version  :  [Default]
+Platform         :  [Any]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Webservice  |  Action:setEndPoint  |  Input:@https://reqres.in/api/users/{GET:ID}  |  Condition:  | @27-Jan-2025 12:22:17.017
+[DONE]   | End point set : https://reqres.in/api/users/3
+
+
+===================================================================================================
+
+Step:2  |  Object:Webservice  |  Action:getRestRequest  |  Input:  |  Condition:  | @27-Jan-2025 12:22:18.018
+[COMPLETE]   | Response received in : [296ms] with Status code  : 200
+
+
+===================================================================================================
+
+Step:3  |  Object:Webservice  |  Action:assertResponseCode  |  Input:@200  |  Condition:  | @27-Jan-2025 12:22:18.018
+[PASS]   | Status code is : 200
+
+
+===================================================================================================
+
+Step:4  |  Object:Webservice  |  Action:storeJSONelementInDataSheet  |  Input:GET:Email  |  Condition:$.data.email  | @27-Jan-2025 12:22:18.018
+[DONE]   | Element text [emma.wong@reqres.in] is stored in GET:Email
+
+---------------------------------------------------
+Testcase Name        : API Scenario:Get
+Executed Steps       : 4
+Passed Steps         : 3
+Failed Steps         : 0
+Time Taken           : 00:00:01
+---------------------------------------------------
+
