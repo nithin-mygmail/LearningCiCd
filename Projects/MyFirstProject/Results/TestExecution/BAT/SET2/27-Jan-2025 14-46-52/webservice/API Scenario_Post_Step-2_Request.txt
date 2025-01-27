@@ -1,0 +1,4 @@
+{
+    "name": "{API:Name}",
+    "job": "{API:Job}"
+}
