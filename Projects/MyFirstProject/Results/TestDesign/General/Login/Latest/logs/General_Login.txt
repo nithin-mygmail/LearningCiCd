@@ -1,0 +1,53 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  21.0.5
+java.home                                  :  C:\Program Files\Java\jdk-21
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Jan 27 14:33:31 IST 2025
+
+Scenario         :  [General]
+TestCase         :  [Login]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:Login:URL  |  Condition:  | @27-Jan-2025 14:33:33.033
+[DONE]   | Opened Url: https://www.saucedemo.com/
+
+
+===================================================================================================
+
+Step:2  |  Object:Username  |  Action:Set  |  Input:Login:Username  |  Condition:  | @27-Jan-2025 14:33:33.033
+[DONE]   | Entered Text 'standard_user' on 'Username'
+
+
+===================================================================================================
+
+Step:3  |  Object:Password  |  Action:setEncrypted  |  Input:%password%  |  Condition:  | @27-Jan-2025 14:33:33.033
+[DONE]   | Entered Encrypted Text SZpqTtjfW+i4z45kdTv2OA== on Password
+
+
+===================================================================================================
+
+Step:4  |  Object:Login  |  Action:Click  |  Input:  |  Condition:  | @27-Jan-2025 14:33:33.033
+[DONE]   | Clicking on Login
+
+---------------------------------------------------
+Testcase Name        : General:Login
+Executed Steps       : 4
+Passed Steps         : 4
+Failed Steps         : 0
+Time Taken           : 00:00:02
+---------------------------------------------------
+
